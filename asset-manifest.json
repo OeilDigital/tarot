@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/tarot/static/css/main.cd079be2.css",
+    "main.js": "/tarot/static/js/main.925a6807.js",
+    "static/js/787.d004e50b.chunk.js": "/tarot/static/js/787.d004e50b.chunk.js",
+    "static/media/stars.jpg": "/tarot/static/media/stars.9e1373a86fb173dc23a3.jpg",
+    "static/media/dos.png": "/tarot/static/media/dos.508f90f66f2233b588f1.png",
+    "static/media/mongo.png": "/tarot/static/media/mongo.365ae9535de3076571fb.png",
+    "static/media/react.png": "/tarot/static/media/react.97b53290379e91b87e07.png",
+    "static/media/docker.png": "/tarot/static/media/docker.0bfb79368df1a515107f.png",
+    "static/media/dnd.png": "/tarot/static/media/dnd.fa2935304d8f11de62f2.png",
+    "static/media/php.png": "/tarot/static/media/php.be1b314538c433504695.png",
+    "static/media/html.png": "/tarot/static/media/html.c0b69779a71573c06be7.png",
+    "static/media/github.png": "/tarot/static/media/github.c5e6a1f6c660745fb1f8.png",
+    "static/media/symfo.png": "/tarot/static/media/symfo.8338d9716852bf7be619.png",
+    "static/media/bash.png": "/tarot/static/media/bash.be8c58ba7b26c3919ac1.png",
+    "static/media/js.png": "/tarot/static/media/js.43ae7315dfc2dba69b30.png",
+    "static/media/css.png": "/tarot/static/media/css.a8c11540dbe8265a131a.png",
+    "index.html": "/tarot/index.html",
+    "main.cd079be2.css.map": "/tarot/static/css/main.cd079be2.css.map",
+    "main.925a6807.js.map": "/tarot/static/js/main.925a6807.js.map",
+    "787.d004e50b.chunk.js.map": "/tarot/static/js/787.d004e50b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd079be2.css",
+    "static/js/main.925a6807.js"
+  ]
+}
