@@ -41,7 +41,7 @@ export default function MeanModal() {
                     </div>
                     <div className="modal-body">
                         <p>Vous êtes à la recherche d'un développeur <strong>React</strong> & Full JS passionné et impliqué, susceptible de renforcer votre équipe.
-                            Vous venez de trouver le profil que vous recherchez.😊
+                            Vous venez de trouver le profil que vous recherchez.
                         </p>
                         <div className="competence">
                             <img src={ReactLogo} alt="logo react" />
