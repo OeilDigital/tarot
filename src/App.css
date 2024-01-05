@@ -491,7 +491,7 @@ body {
   background: #346abf;
   border-radius: 8px;
   border-top: 1px transparent;
-  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 5px 2px #f4f4f4;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 0.2vw 1px #f4f4f4;
 }
 
 /*Angle*/
@@ -503,8 +503,8 @@ body {
 .competence::-webkit-scrollbar-button:single-button {
   display: block;
   border-style: solid;
-  height: 1rem;
-  width: 1rem;
+  height: initial;
+  width: initial;
 }
 
 /* Haut */
@@ -544,7 +544,7 @@ body {
   background: #346abf;
   border-radius: 8px;
   border-top: 1px transparent;
-  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 5px 2px #f4f4f4;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 0.2vw 1px #f4f4f4;
 }
 
 /*Angle*/
@@ -556,8 +556,8 @@ body {
 .competence::-moz-scrollbar-button:single-button {
   display: block;
   border-style: solid;
-  height: 1rem;
-  width: 1rem;
+  height: initial;
+  width: initial;
 }
 
 /* Haut */
@@ -598,7 +598,7 @@ body {
   background: #346abf;
   border-radius: 8px;
   border-top: 1px transparent;
-  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 5px 2px #f4f4f4;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 0.2vw 1px #f4f4f4;
 }
 
 /*Angle*/
@@ -610,8 +610,8 @@ body {
 .competence::-o-scrollbar-button:single-button {
   display: block;
   border-style: solid;
-  height: 1rem;
-  width: 1rem;
+  height: initial;
+  width: initial;
 }
 
 /* Haut */
@@ -652,7 +652,7 @@ body {
   background: #346abf;
   border-radius: 8px;
   border-top: 1px transparent;
-  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 5px 2px #f4f4f4;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 0.2vw 1px #f4f4f4;
 }
 
 /*Angle*/
@@ -664,8 +664,8 @@ body {
 .competence::-ms-scrollbar-button:single-button {
   display: block;
   border-style: solid;
-  height: 1rem;
-  width: 1rem;
+  height: initial;
+  width: initial;
 }
 
 /* Haut */
@@ -687,6 +687,8 @@ body {
 .competence::-ms-scrollbar-button:single-button:vertical:increment:hover {
   border-color: #1F3F72 transparent transparent transparent;
 }
+
+
 
 
 .modal-body > p{
