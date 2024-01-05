@@ -79,13 +79,7 @@ export default function MeanModal() {
                                 <span>Site: <a href="https://alt-k.fr/" target="_blank" rel="noreferrer">https://alt-k.fr/</a></span>
                                 <span>Github:<a href="https://github.com/oeildigital" target="_blank" rel="noreferrer">https://github.com/oeildigital</a></span>
                             </p>
-                            {/* <p>
-                                <span>Github:<a href="https://github.com/oeildigital" target="_blank" rel="noreferrer">https://github.com/oeildigital</a></span>
-                            </p> */}
-
-
                         </div>
-
                     </div>
                 </div>
             </div>
