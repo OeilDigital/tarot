@@ -475,6 +475,220 @@ body {
   height: auto;
 }
 
+/* Global */
+.competence::-webkit-scrollbar {
+  width: 0.8vw;
+}
+
+/* Fond */
+.competence::-webkit-scrollbar-track {
+  position: relative;
+  box-shadow: inset -5px 0 0 1px rgb(202, 202, 202), inset -9px 0 0 1px #346abf;
+}
+
+/* Ascenseur */
+.competence::-webkit-scrollbar-thumb {
+  background: #346abf;
+  border-radius: 8px;
+  border-top: 1px transparent;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 5px 2px #f4f4f4;
+}
+
+/*Angle*/
+.competence::-webkit-scrollbar-corner {
+  background: #346abf;
+}
+
+/* Boutons */
+.competence::-webkit-scrollbar-button:single-button {
+  display: block;
+  border-style: solid;
+  height: 1rem;
+  width: 1rem;
+}
+
+/* Haut */
+.competence::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 12px 8px;
+  border-color: transparent transparent #346abf transparent;
+}
+
+.competence::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #1F3F72 transparent;
+}
+
+/* Bas */
+.competence::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 12px 8px 0 8px;
+  border-color: #346abf transparent transparent transparent;
+}
+
+.competence::-webkit-scrollbar-button:single-button:vertical:increment:hover {
+  border-color: #1F3F72 transparent transparent transparent;
+}
+/* */
+
+/* Global */
+.competence::-moz-scrollbar {
+  width: 0.8vw;
+}
+
+/* Fond */
+.competence::-moz-scrollbar-track {
+  position: relative;
+  box-shadow: inset -5px 0 0 1px rgb(202, 202, 202), inset -9px 0 0 1px #346abf;
+}
+
+/* Ascenseur */
+.competence::-moz-scrollbar-thumb {
+  background: #346abf;
+  border-radius: 8px;
+  border-top: 1px transparent;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 5px 2px #f4f4f4;
+}
+
+/*Angle*/
+.competence::-moz-scrollbar-corner {
+  background: #346abf;
+}
+
+/* Boutons */
+.competence::-moz-scrollbar-button:single-button {
+  display: block;
+  border-style: solid;
+  height: 1rem;
+  width: 1rem;
+}
+
+/* Haut */
+.competence::-moz-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 12px 8px;
+  border-color: transparent transparent #346abf transparent;
+}
+
+.competence::-moz-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #1F3F72 transparent;
+}
+
+/* Bas */
+.competence::-moz-scrollbar-button:single-button:vertical:increment {
+  border-width: 12px 8px 0 8px;
+  border-color: #346abf transparent transparent transparent;
+}
+
+.competence::-moz-scrollbar-button:single-button:vertical:increment:hover {
+  border-color: #1F3F72 transparent transparent transparent;
+}
+
+/* */
+
+/* Global */
+.competence::-o-scrollbar {
+  width: 0.8vw;
+}
+
+/* Fond */
+.competence::-o-scrollbar-track {
+  position: relative;
+  box-shadow: inset -5px 0 0 1px rgb(202, 202, 202), inset -9px 0 0 1px #346abf;
+}
+
+/* Ascenseur */
+.competence::-o-scrollbar-thumb {
+  background: #346abf;
+  border-radius: 8px;
+  border-top: 1px transparent;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 5px 2px #f4f4f4;
+}
+
+/*Angle*/
+.competence::-o-scrollbar-corner {
+  background: #346abf;
+}
+
+/* Boutons */
+.competence::-o-scrollbar-button:single-button {
+  display: block;
+  border-style: solid;
+  height: 1rem;
+  width: 1rem;
+}
+
+/* Haut */
+.competence::-o-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 12px 8px;
+  border-color: transparent transparent #346abf transparent;
+}
+
+.competence::-o-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #1F3F72 transparent;
+}
+
+/* Bas */
+.competence::-o-scrollbar-button:single-button:vertical:increment {
+  border-width: 12px 8px 0 8px;
+  border-color: #346abf transparent transparent transparent;
+}
+
+.competence::-o-scrollbar-button:single-button:vertical:increment:hover {
+  border-color: #1F3F72 transparent transparent transparent;
+}
+
+/* */
+
+/* Global */
+.competence::-ms-scrollbar {
+  width: 0.8vw;
+}
+
+/* Fond */
+.competence::-ms-scrollbar-track {
+  position: relative;
+  box-shadow: inset -5px 0 0 1px rgb(202, 202, 202), inset -9px 0 0 1px #346abf;
+}
+
+/* Ascenseur */
+.competence::-ms-scrollbar-thumb {
+  background: #346abf;
+  border-radius: 8px;
+  border-top: 1px transparent;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .45), inset 0 0 5px 2px #f4f4f4;
+}
+
+/*Angle*/
+.competence::-ms-scrollbar-corner {
+  background: #346abf;
+}
+
+/* Boutons */
+.competence::-ms-scrollbar-button:single-button {
+  display: block;
+  border-style: solid;
+  height: 1rem;
+  width: 1rem;
+}
+
+/* Haut */
+.competence::-ms-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 12px 8px;
+  border-color: transparent transparent #346abf transparent;
+}
+
+.competence::-ms-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #1F3F72 transparent;
+}
+
+/* Bas */
+.competence::-ms-scrollbar-button:single-button:vertical:increment {
+  border-width: 12px 8px 0 8px;
+  border-color: #346abf transparent transparent transparent;
+}
+
+.competence::-ms-scrollbar-button:single-button:vertical:increment:hover {
+  border-color: #1F3F72 transparent transparent transparent;
+}
+
+
 .modal-body > p{
   font-family: 'Montserrat', sans-serif;
   padding: 0 1vw;
