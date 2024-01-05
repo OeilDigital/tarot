@@ -481,10 +481,10 @@ body {
 }
 
 /* Fond */
-.competence::-webkit-scrollbar-track {
+/* .competence::-webkit-scrollbar-track {
   position: relative;
   box-shadow: inset -5px 0 0 1px rgb(202, 202, 202), inset -9px 0 0 1px #346abf;
-}
+} */
 
 /* Ascenseur */
 .competence::-webkit-scrollbar-thumb {
@@ -495,21 +495,21 @@ body {
 }
 
 /*Angle*/
-.competence::-webkit-scrollbar-corner {
+/* .competence::-webkit-scrollbar-corner {
   background: #346abf;
-}
+} */
 
 /* Boutons */
 .competence::-webkit-scrollbar-button:single-button {
   display: block;
   border-style: solid;
-  height: initial;
-  width: initial;
+  height: 1rem;
+  width: 1rem;
 }
 
 /* Haut */
 .competence::-webkit-scrollbar-button:single-button:vertical:decrement {
-  border-width: 0 8px 12px 8px;
+  border-width: 0 8px 16px 8px;
   border-color: transparent transparent #346abf transparent;
 }
 
@@ -519,7 +519,7 @@ body {
 
 /* Bas */
 .competence::-webkit-scrollbar-button:single-button:vertical:increment {
-  border-width: 12px 8px 0 8px;
+  border-width: 16px 8px 0 8px;
   border-color: #346abf transparent transparent transparent;
 }
 
@@ -562,7 +562,7 @@ body {
 
 /* Haut */
 .competence::-moz-scrollbar-button:single-button:vertical:decrement {
-  border-width: 0 8px 12px 8px;
+  border-width: 0 8px 16px 8px;
   border-color: transparent transparent #346abf transparent;
 }
 
@@ -572,7 +572,7 @@ body {
 
 /* Bas */
 .competence::-moz-scrollbar-button:single-button:vertical:increment {
-  border-width: 12px 8px 0 8px;
+  border-width: 16px 8px 0 8px;
   border-color: #346abf transparent transparent transparent;
 }
 
@@ -616,7 +616,7 @@ body {
 
 /* Haut */
 .competence::-o-scrollbar-button:single-button:vertical:decrement {
-  border-width: 0 8px 12px 8px;
+  border-width: 0 8px 16px 8px;
   border-color: transparent transparent #346abf transparent;
 }
 
@@ -626,7 +626,7 @@ body {
 
 /* Bas */
 .competence::-o-scrollbar-button:single-button:vertical:increment {
-  border-width: 12px 8px 0 8px;
+  border-width: 16px 8px 0 8px;
   border-color: #346abf transparent transparent transparent;
 }
 
@@ -670,7 +670,7 @@ body {
 
 /* Haut */
 .competence::-ms-scrollbar-button:single-button:vertical:decrement {
-  border-width: 0 8px 12px 8px;
+  border-width: 0 8px 16px 8px;
   border-color: transparent transparent #346abf transparent;
 }
 
@@ -680,7 +680,7 @@ body {
 
 /* Bas */
 .competence::-ms-scrollbar-button:single-button:vertical:increment {
-  border-width: 12px 8px 0 8px;
+  border-width: 16px 8px 0 8px;
   border-color: #346abf transparent transparent transparent;
 }
 
