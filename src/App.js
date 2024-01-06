@@ -1,23 +1,10 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import './App.css';
 import Deck from "./components/Deck"
 import MeanModal from "./components/MeanModal"
 
 function App({ data }) {
   const [mean, setMean] = useState(false)
-
-  // const columns = document.querySelectorAll(".cards_column");
-  // for (let i = 1; i < columns.length; i++) {
-  //   let cardList = columns[i].childNodes[1];
-  //   if (cardList.children.length > 0) {
-  //     const logoOn = document.querySelectorAll("#logo-on")
-  //     logoOn.style.display = 'none'
-  //   }
-  // }
-
-  useEffect(() => {
-    console.log(mean)
-  }, [mean])
 
   function updateMean() {
     setMean(true)
