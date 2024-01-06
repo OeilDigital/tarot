@@ -4,6 +4,14 @@ import { Droppable } from '@hello-pangea/dnd'
 
 
 function Column({ column, cards }) {
+    const columns = document.querySelectorAll(".cards_column");
+    for (let i = 1; i < columns.length; i++) {
+        let cardList = columns[i].childNodes[1];
+        if (cardList.children.length > 0) {
+            const logoOn = document.querySelector("#logo-on");
+            logoOn.style.display = 'none';
+        }
+    }
 
     return (
         <div className="cards_column">
