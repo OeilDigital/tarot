@@ -9,7 +9,9 @@ function Column({ column, cards }) {
         let cardList = columns[i].childNodes[1];
         if (cardList.children.length > 0) {
             const logoOn = document.querySelector("#logo-on");
+            const titleOn = document.querySelector("#title-on");
             logoOn.style.display = 'none';
+            titleOn.style.display = 'none';
         }
     }
 

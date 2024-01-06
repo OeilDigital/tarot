@@ -631,10 +631,10 @@ p{
   left: 50%;
   transform: translate(-50%, -38%);
   z-index: 1000;
-  animation: disappearance 2s ease forwards 7s;
+  animation: fillin 2s ease forwards 6s, disappearance 2s ease forwards 6.5s;
 }
 
-.title-on {
+#title-on {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -654,6 +654,16 @@ p{
 @keyframes disappearance {
   to {
     display: none;
+  }
+}
+
+@keyframes fillin {
+  from {
+    fill: transparent;
+  }
+
+  to {
+    fill: url("#RadialRepeatGradient");
   }
 }
 
