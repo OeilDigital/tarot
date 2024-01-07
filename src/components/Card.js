@@ -7,25 +7,19 @@ function Card(card, index) {
 
     const addActive = (e) => {
         const thisCard = e.target
-        const parentColumn = thisCard.parentNode.parentNode
-        const parentColumnAttribute = parentColumn.getAttribute('data-rfd-droppable-id');
-        thisCard.classList.toggle('active')
-        if (parentColumnAttribute === 'initialDeck') {
+        const thisCardWrapper = thisCard.parentNode.parentNode
+        const thisCardWrapperAttribute = thisCardWrapper.getAttribute('data-rfd-droppable-id');
+        const backFace = thisCardWrapper.firstChild.lastChild
+        thisCardWrapper.classList.toggle('active')
+        console.log(backFace)
+        if (thisCardWrapperAttribute === 'initialDeck') {
             thisCard.style.background = './components/dos.png'
         } else {
-
-            if (thisCard.classList.contains('active')) {
-                thisCard.style.background = `url(${card.card.design})`
-                thisCard.style.backgroundSize = '93% 96%'
-                // thisCard.style.backgroundSize = `95% 97%`
-                // if (window.matchMedia("(max-width: 700px)").matches) {
-                //     thisCard.style.backgroundSize = "90% 90%"
-                //     thisCard.parentNode.style.backgroundSize = "90% 90%"
-                // } else {
-                //     thisCard.style.backgroundSize = "95% 97%"
-                // }
-                thisCard.style.backgroundPosition = "center center"
-                thisCard.style.backgroundRepeat = "no-repeat"
+            if (thisCardWrapper.classList.contains('active')) {
+                backFace.style.background = `url(${card.card.design})`
+                backFace.style.backgroundSize = '93% 96%'
+                backFace.style.backgroundPosition = "center center"
+                backFace.style.backgroundRepeat = "no-repeat"
             } else {
                 thisCard.style.background = './components/dos.png'
 
@@ -44,13 +38,12 @@ function Card(card, index) {
                     {...provided.draggableProps}
                     {...provided.dragHandleProps}
                     ref={provided.innerRef}
-
-                // onDragStart={dragAction()}
                 >
                     <div className="card-wrapper" title="Déplace moi ou découvre moi!" onClick={addActive}>
                         <div className="card">
-                            <div className="card-front side front"></div>
-                            <div className="card-back side back"></div>
+                            <div className="card-front"></div>
+                            <div className="card-back"></div>
+
                         </div>
                     </div>
 
