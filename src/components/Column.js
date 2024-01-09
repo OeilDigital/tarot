@@ -12,8 +12,18 @@ function Column({ column, cards }) {
             const titleOn = document.querySelector("#title-on");
             logoOn.style.display = 'none';
             titleOn.style.display = 'none';
+            const arcanes = document.querySelectorAll(".deck:first-child div[data-rfd-droppable-id='initialDeck']>div");
+            arcanes.forEach(element => {
+                element.style.animationPlayState = 'paused'
+            });
         }
     }
+
+    // const arcanes = document.querySelector("[data-rfd-droppable-id='initialDeck'] .card_item")
+    // console.log(arcanes)
+
+    const arcanes = document.querySelectorAll(".deck:first-child div[data-rfd-droppable-id='initialDeck']>div")
+    console.log(arcanes)
 
     return (
         <div className="cards_column">

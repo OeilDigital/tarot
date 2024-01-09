@@ -74,6 +74,11 @@ body {
     z-index: 100;
 }
 
+/* 1er arcane */
+/* .deck>div:nth-child(1) div div:first-child div{
+    background-color: red;
+} */
+
 .deck>div:nth-child(1) .cards_list {
     position: relative;
     left: 7vw;
@@ -219,118 +224,379 @@ body {
     margin-top: -2.1vw;
 }
 
+/* Animation de la distribution Initiale du jeu et placement */
+
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]:nth-child(1) {
     position: absolute;
+}
+
+.deck:first-child div[data-rfd-droppable-id="initialDeck"]>div {
+    top: -60vh;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(1) {
     left: 5%;
     z-index: 1;
+    top: -60vh;
+    animation: showCard .5s ease 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+
+
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(2) {
     left: 8%;
     z-index: 2;
+    animation: showCard .5s ease 1.1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(3) {
     left: 11%;
     z-index: 3;
+    animation: showCard .5s ease 1.2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(4) {
     left: 14%;
     z-index: 4;
+    animation: showCard .5s ease 1.3s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(5) {
     left: 17%;
     z-index: 5;
+    animation: showCard .5s ease 1.4s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(6) {
     left: 20%;
     z-index: 6;
+    animation: showCard .5s ease 1.5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(7) {
     left: 23%;
     z-index: 7;
+    animation: showCard .5s ease 1.6s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(8) {
     left: 26%;
     z-index: 8;
+    animation: showCard .5s ease 1.7s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(9) {
     left: 29%;
     z-index: 9;
+    animation: showCard .5s ease 1.8s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(10) {
     left: 32%;
     z-index: 10;
+    animation: showCard .5s ease 1.9s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(11) {
     left: 35%;
     z-index: 11;
+    animation: showCard .5s ease 2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(12) {
     left: 38%;
     z-index: 12;
+    animation: showCard .5s ease 2.1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(13) {
     left: 41%;
     z-index: 13;
+    animation: showCard .5s ease 2.2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(14) {
     left: 44%;
     z-index: 14;
+    animation: showCard .5s ease 2.3s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(15) {
     left: 47%;
     z-index: 15;
+    animation: showCard .5s ease 2.4s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(16) {
     left: 50%;
     z-index: 16;
+    animation: showCard .5s ease 2.5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(17) {
     left: 53%;
     z-index: 17;
+    animation: showCard .5s ease 2.6s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(18) {
     left: 56%;
     z-index: 18;
+    animation: showCard .5s ease 2.7s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(19) {
     left: 59%;
     z-index: 19;
+    animation: showCard .5s ease 2.8s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(20) {
     left: 62%;
     z-index: 20;
+    animation: showCard .5s ease 2.9s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(21) {
     left: 65%;
     z-index: 21;
+    animation: showCard .5s ease 3s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
 }
 
 .deck:first-child div[data-rfd-droppable-id="initialDeck"]>div:nth-of-type(22) {
     left: 68%;
     z-index: 22;
+    animation: showCard .5s ease 3.1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+}
+
+@keyframes showCard {
+
+    /* from{
+        top: -60vh;
+    } */
+    to {
+        top: 0;
+    }
 }
 
 
@@ -708,7 +974,6 @@ p {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* z-index: 1000; */
     animation: disappearance 2s ease forwards 7s;
 }
 
