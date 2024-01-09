@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tarot/static/css/main.f5e0f4d0.css",
-    "main.js": "/tarot/static/js/main.b8dd0b19.js",
+    "main.css": "/tarot/static/css/main.2c1fe005.css",
+    "main.js": "/tarot/static/js/main.67381d22.js",
     "static/js/787.d004e50b.chunk.js": "/tarot/static/js/787.d004e50b.chunk.js",
     "static/media/stars.jpg": "/tarot/static/media/stars.9e1373a86fb173dc23a3.jpg",
     "static/media/dos.png": "/tarot/static/media/dos.508f90f66f2233b588f1.png",
@@ -17,12 +17,12 @@
     "static/media/js.png": "/tarot/static/media/js.43ae7315dfc2dba69b30.png",
     "static/media/css.png": "/tarot/static/media/css.a8c11540dbe8265a131a.png",
     "index.html": "/tarot/index.html",
-    "main.f5e0f4d0.css.map": "/tarot/static/css/main.f5e0f4d0.css.map",
-    "main.b8dd0b19.js.map": "/tarot/static/js/main.b8dd0b19.js.map",
+    "main.2c1fe005.css.map": "/tarot/static/css/main.2c1fe005.css.map",
+    "main.67381d22.js.map": "/tarot/static/js/main.67381d22.js.map",
     "787.d004e50b.chunk.js.map": "/tarot/static/js/787.d004e50b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5e0f4d0.css",
-    "static/js/main.b8dd0b19.js"
+    "static/css/main.2c1fe005.css",
+    "static/js/main.67381d22.js"
   ]
 }
