@@ -45,6 +45,7 @@ body {
     display: none;
 }
 
+/* Disposition des sections de jeu */
 .deck {
     width: 100%;
     height: 100%;
@@ -73,11 +74,6 @@ body {
     height: 100%;
     z-index: 100;
 }
-
-/* 1er arcane */
-/* .deck>div:nth-child(1) div div:first-child div{
-    background-color: red;
-} */
 
 .deck>div:nth-child(1) .cards_list {
     position: relative;
@@ -599,6 +595,7 @@ body {
     }
 }
 
+/* Cartes de départ dans Arcanes */
 
 .deck>div:nth-child(1) .card_item {
     background-image: url(./components/dos.png);
@@ -630,6 +627,7 @@ body {
     perspective-origin: center;
 }
 
+/* Cartes dans les section à choix */
 .deck>div:not(:nth-child(1)) .card-wrapper {
     background: transparent;
     width: 13vw;
@@ -701,6 +699,26 @@ body {
 
 
 /* Bouton d'interprétation et modale & div .mean*/
+
+.btnMeanFalse, .btnMean, .btnReboot  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 110px;
+    min-width: 40%;
+    padding: 2vh;
+    border-radius: 30px;
+    color: #525252;
+    font-size: clamp(0.7rem, 2rem, 2vh);
+    font-weight: 500;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
 .divMean {
     display: flex;
     grid-area: 1 / 7 / 2 / 9;
@@ -710,47 +728,31 @@ body {
     gap: 5vh;
 }
 
-.btnMean {
-    width: auto;
-    height: auto;
-    color: #525252;
-    font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
-    font-family: 'Montserrat', sans-serif;
-    font-size: clamp(0.7rem, 1vw, 1rem);
-    cursor: pointer;
-    padding: 0.5vw 1vw;
+.btnMeanFalse {
+    opacity: 0.6;
+    cursor: initial;
 }
 
 .btnReboot {
-    width: auto;
-    height: auto;
-    color: #525252;
-    font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
-    font-family: 'Montserrat', sans-serif;
-    font-size: clamp(0.7rem, 1vw, 1rem);
-    cursor: pointer;
-    padding: 0.5vw 1vw;
+    color: white;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
     z-index: 2000;
 }
 
-.btnMeanFalse {
-    width: auto;
+.btnReboot:hover {
     height: auto;
-    color: #525252;
-    font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+    color: white;
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0px 0px 10px rgba(64, 0, 255, 0.6);
     font-family: 'Montserrat', sans-serif;
-    font-size: clamp(0.7rem, 1vw, 1rem);
-    opacity: 0.6;
-    padding: 0.5vw 1vw;
+    z-index: 2000;
 }
 
 #mean-details-modal {
@@ -925,6 +927,8 @@ p {
     gap: 4%;
 }
 
+/* Animation du titre en mode landscape */
+
 #logo-on path:nth-child(1) {
     stroke-dasharray: 246;
     stroke-dashoffset: 246;
@@ -1005,6 +1009,7 @@ svg {
 }
 
 
+/* Mode portrait et anim du titre */
 
 @media screen and (orientation: portrait) {
     .App {

@@ -113,8 +113,8 @@ function Deck({ data, updateMean }) {
 
             <div className="divMean">
                 {fullDraw ?
-                    (<button className="btnMean" onClick={updateMean}>Interprétation</button>) :
-                    (<button className="btnMeanFalse" disabled >Interprétation</button>)
+                    (<button className="btnMean" onClick={updateMean}><strong>Interprétation</strong></button>) :
+                    (<button className="btnMeanFalse" disabled ><strong>Interprétation</strong></button>)
                 }
 
                 <div className="intro">
@@ -123,7 +123,7 @@ function Deck({ data, updateMean }) {
                     </p>
                 </div>
 
-                <button className="btnReboot" onClick={handleClick}>Nouveau Tirage</button>
+                <button className="btnReboot" onClick={handleClick}><strong>Nouveau Tirage</strong></button>
             </div>
         </div>
     )
