@@ -714,7 +714,6 @@ body {
     font-weight: 500;
     border: none;
     background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
@@ -731,22 +730,25 @@ body {
 .btnMeanFalse {
     opacity: 0.6;
     cursor: initial;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
 }
 
 .btnReboot {
     color: white;
     background-size: 300% 100%;
-    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
     -moz-background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
     -o-background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
     -webkit-background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
     z-index: 2000;
     overflow: hidden;
 }
 
 .btnReboot:hover {
-    height: auto;
-    color: white;
     background-position: 100% 0;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -756,9 +758,6 @@ body {
     -o-background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
     -webkit-background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
     background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
-    box-shadow: 0px 0px 10px rgba(64, 0, 255, 0.6);
-    font-family: 'Montserrat', sans-serif;
-    z-index: 2000;
 }
 
 #mean-details-modal {
