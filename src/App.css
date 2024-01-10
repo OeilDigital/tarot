@@ -748,7 +748,6 @@ body {
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    transform: scale(1.1);
     background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
     box-shadow: 0px 0px 10px rgba(64, 0, 255, 0.6);
     font-family: 'Montserrat', sans-serif;
