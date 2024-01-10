@@ -14,16 +14,14 @@ function Column({ column, cards }) {
             titleOn.style.display = 'none';
             const arcanes = document.querySelectorAll(".deck:first-child div[data-rfd-droppable-id='initialDeck']>div");
             arcanes.forEach(element => {
-                element.style.animationPlayState = 'paused'
+                if (element.style.top === 0) {
+                    element.style.animationPlayState = 'paused';
+                } else {
+                    element.style.top = 0;
+                }
             });
         }
     }
-
-    // const arcanes = document.querySelector("[data-rfd-droppable-id='initialDeck'] .card_item")
-    // console.log(arcanes)
-
-    const arcanes = document.querySelectorAll(".deck:first-child div[data-rfd-droppable-id='initialDeck']>div")
-    console.log(arcanes)
 
     return (
         <div className="cards_column">
